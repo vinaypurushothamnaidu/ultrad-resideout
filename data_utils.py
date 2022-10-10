@@ -64,7 +64,7 @@ class RESIDE_Dataset(data.Dataset):
 
 path = '/kaggle/input/'
 
-Ots_train_loader = DataLoader(dataset = RESIDE_Dataset(path + 'resideh/RESIDE/OTS', train = True), 
+Ots_train_loader = DataLoader(dataset = RESIDE_Dataset(path + 'resideh/RESIDE/OTS', train = True, format = '.jpg'), 
                              batch_size = BS, shuffle = True)
 
 Ots_test_loader = DataLoader(dataset = RESIDE_Dataset(path + 'resideh/RESIDE/SOTS/outdoor', train = False), 
