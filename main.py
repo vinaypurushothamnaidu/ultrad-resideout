@@ -20,8 +20,8 @@ models_ = {
 }
 
 loaders_ = {
-	'resideotstrain':Its_train_loader,
-	'sotsout':Its_test_loader
+	'resideotstrain':Ots_train_loader,
+	'sotsout':Ots_test_loader
 }
 
 start_time = time.time()
